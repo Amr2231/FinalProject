@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row{
+    @apply flex flex-wrap py-10;
+}
+.btn{
+    @apply px-4 py-2 rounded-md text-white;
+}
+.w-50{
+    width: 50% !important;
+}
+.block{
+    display: block !important;;
+}
+#content { display: block; max-height: 0; overflow: hidden; transition: max-height 2s ease-in-out; }
+ #content.show { max-height: 400px;}
